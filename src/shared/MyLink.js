@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const MyLink = ({ children, ...props }) => {
+const MyLink = ({ children, ...state }) => {
     return (
-        <Link {...props} style={{ textDecoration: 'none', color: 'inherit' }}>
+        <Link {...state} style={{ textDecoration: 'none', color: 'inherit' }}>
             {children}
         </Link>
     );

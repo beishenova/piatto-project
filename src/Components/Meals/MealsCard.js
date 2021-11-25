@@ -9,10 +9,10 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import Typography from '@material-ui/core/Typography';
-import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+
 import { Shop } from '@material-ui/icons';
 import MyLink from '../../shared/MyLink';
-import { useProducts } from '../../contexts/ProductsContext';
+import { useMeals } from '../../contexts/MealContext';
 import { checkItemInFavorite} from '../../utils/check-item-favorite';
 
 const useStyles = makeStyles({
@@ -31,7 +31,7 @@ const useStyles = makeStyles({
 const MealCard = ({ meal, favorite }) => {
   const classes = useStyles();
 
-  const { addAndDeleteMealInFavorite } = useProducts();
+  const { addAndDeleteMealInFavorite } = useMeals();
 
   const isMealInFavorite = () => {
     if (favorite) {
