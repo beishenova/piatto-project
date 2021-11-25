@@ -22,7 +22,10 @@ import { checkItemInFavorite } from '../utils/check-item-favorite';
 
 export const mealContext = createContext();
 
-export const useMeals = () => useContext(mealContext);
+// export const useMeals = () => {
+//   return useContext(mealContext);
+//   };
+export const useMeals = ()=> useContext(mealContext)
 
 const INIT_STATE = {
   mealsLoading: false,
