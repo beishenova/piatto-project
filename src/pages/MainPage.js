@@ -6,14 +6,14 @@ import MainLayout from '../layouts/MainLayout';
 
 const MainPage = () => {
     return (
-        <MainLayout>
+        // <MainLayout/>
             <Box p={5}>
                 <Grid container spacing={3}>
-                    <Sidebar />
+                    {/* <Sidebar /> */}
                     <Content />
                 </Grid>
             </Box>
-        </MainLayout>
+        // {/* </MainLayout> */}
     );
 };
 
