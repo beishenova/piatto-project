@@ -2,7 +2,7 @@ import { Grid, makeStyles, Paper } from '@material-ui/core';
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router';
 import { useMeals } from '../../contexts/MealContext';
-import MySpinner from '../../shared/MySpinner';
+// import MySpinner from '../../shared/MySpinner';
 import {
   ImageWithZoom,
   Slider,
@@ -12,6 +12,7 @@ import {
   ButtonNext,
 } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
+import MainLayout from '../../layouts/MainLayout';
 
 const useStyles = makeStyles((theme) => ({
   custom_container: {
@@ -85,7 +86,7 @@ const MealsDetails = () => {
           </Grid>
         </Grid>
       ) : (
-        <MySpinner />
+        <MainLayout />
       )}
     </Grid>
   );

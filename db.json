@@ -91,7 +91,7 @@
             "image": "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg"
         },
         {
-            "burger": [
+            "breakfast": [
                 {
                     "id": "1",
                     "title": "Классический Бургер",
@@ -149,7 +149,7 @@
             ]
         },
         {
-            "pizza": [
+            "lunch": [
                 {
                     "id": "1",
                     "title": "КУРИНАЯ ",
@@ -207,7 +207,7 @@
             ]
         },
         {
-            "dessert": [
+            "dinner": [
                 {
                     "id": "1",
                     "title": "Творожный десерт ",

@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
-import { useProducts } from '../../contexts/MealsContext';
+import { useMeals } from '../../contexts/MealContext';
 
 
 const Favorite = () => {
-    const { favorite, getFavorite } = useProducts();
+    const { favorite, getFavorite } = useMeals();
     useEffect(() => {
         getFavorite();
     }, []);

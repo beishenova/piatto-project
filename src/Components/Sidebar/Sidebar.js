@@ -3,10 +3,11 @@ import { slide as Menu } from "react-burger-menu";
 import MyLink from "../../shared/MyLink";
 import "./Sidebar.css";
 
-export default (props) => {
+export default (state) => {
     return (
-        <Menu {...props}>
+        <Menu {...state}>
             <MyLink to="/">Meal</MyLink>
+            <a href="/">Meal2</a>
 
             <a className="menu-item" href="/burgers">
                 Burgers
