@@ -20,12 +20,17 @@ import {
 import { useLocation, useNavigate } from 'react-router';
 import { checkItemInFavorite } from '../utils/check-item-favorite';
 
-export const mealContext = createContext();
+// const mealContext = createContext();
 
 // export const useMeals = () => {
 //   return useContext(mealContext);
 //   };
-export const useMeals = ()=> useContext(mealContext)
+export const mealContext = createContext();
+
+export const useMeals = () => {
+  return useContext(mealContext);
+  };
+export const useMeals1 = ()=> useContext(mealContext)
 
 const INIT_STATE = {
   mealsLoading: false,

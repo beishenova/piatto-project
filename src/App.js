@@ -5,16 +5,19 @@ import AuthContext from './contexts/AuthContext'
 import MainLayout from './layouts/MainLayout'
 import Footer from './Components/Footer/Footer'
 import MainPage from './pages/MainPage'
+import MealContext from './contexts/MealContext'
 
 const App = () => {
   return (
     <BrowserRouter>
+      <MealContext>
     <AuthContext>
       <MainLayout />
       <MainImages />
       <MainPage/>
-      <Footer />
     </AuthContext>
+      <Footer />
+      </MealContext>
     </BrowserRouter>
   )
 }
