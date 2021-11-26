@@ -1,0 +1,268 @@
+{
+    "meals": [
+        {
+            "id": "1",
+            "title": "Pasta,Curry",
+            "description": "Spicy Arrabiata Penne",
+            "price": 2000,
+            "category": "Vegetarian",
+            "area": "Italian",
+            "image": "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg"
+        },
+        {
+            "id": "2",
+            "title": "Pasta,Curry",
+            "description": "Spicy Arrabiata Penne",
+            "price": 2000,
+            "category": "Vegetarian",
+            "area": "Italian",
+            "image": "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg"
+        },
+        {
+            "id": "3",
+            "title": "Pasta,Curry",
+            "description": "Spicy Arrabiata Penne",
+            "price": 2000,
+            "category": "Vegetarian",
+            "area": "Italian",
+            "image": "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg"
+        },
+        {
+            "id": "4",
+            "title": "Pasta,Curry",
+            "description": "Spicy Arrabiata Penne",
+            "price": 2000,
+            "category": "Vegetarian",
+            "area": "Italian",
+            "image": "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg"
+        },
+        {
+            "id": "5",
+            "title": "Pasta,Curry",
+            "description": "Spicy Arrabiata Penne",
+            "price": 2000,
+            "category": "Vegetarian",
+            "area": "Italian",
+            "image": "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg"
+        },
+        {
+            "id": "6",
+            "title": "Pasta,Curry",
+            "description": "Spicy Arrabiata Penne",
+            "price": 2000,
+            "category": "Vegetarian",
+            "area": "Italian",
+            "image": "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg"
+        },
+        {
+            "id": "7",
+            "title": "Pasta,Curry",
+            "description": "Spicy Arrabiata Penne",
+            "price": 2000,
+            "category": "Vegetarian",
+            "area": "Italian",
+            "image": "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg"
+        },
+        {
+            "id": "8",
+            "title": "Pasta,Curry",
+            "description": "Spicy Arrabiata Penne",
+            "price": 2000,
+            "category": "Vegetarian",
+            "area": "Italian",
+            "image": "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg"
+        },
+        {
+            "id": "9",
+            "title": "Pasta,Curry",
+            "description": "Spicy Arrabiata Penne",
+            "price": 2000,
+            "category": "Vegetarian",
+            "area": "Italian",
+            "image": "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg"
+        },
+        {
+            "id": "10",
+            "title": "Pasta,Curry",
+            "description": "Spicy Arrabiata Penne",
+            "price": 2000,
+            "category": "Vegetarian",
+            "area": "Italian",
+            "image": "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg"
+        },
+        {
+            "burger": [
+                {
+                    "id": "1",
+                    "title": "Классический Бургер",
+                    "description": "Фирменная булочка, красный лук, маринованный огурец, листья салата, помидор, соус Классический",
+                    "price": 175,
+                    "category": "Мясное",
+                    "area": "Italian",
+                    "image": "https://primebeef.ru/images/cms/thumbs/a5b0aeaa3fa7d6e58d75710c18673bd7ec6d5f6d/img_3911_500_306_5_100.jpg"
+                },
+                {
+                    "id": "2",
+                    "title": "Классический Бургер",
+                    "description": "Фирменная булочка, красный лук, маринованный огурец, листья салата, помидор, соус Классический",
+                    "price": 175,
+                    "category": "Мясное",
+                    "area": "Italian",
+                    "image": "https://primebeef.ru/images/cms/thumbs/a5b0aeaa3fa7d6e58d75710c18673bd7ec6d5f6d/img_3911_500_306_5_100.jpg"
+                },
+                {
+                    "id": "3",
+                    "title": "Классический Бургер",
+                    "description": "Фирменная булочка, красный лук, маринованный огурец, листья салата, помидор, соус Классический",
+                    "price": 175,
+                    "category": "Мясное",
+                    "area": "Italian",
+                    "image": "https://primebeef.ru/images/cms/thumbs/a5b0aeaa3fa7d6e58d75710c18673bd7ec6d5f6d/img_3911_500_306_5_100.jpg"
+                },
+                {
+                    "id": "4",
+                    "title": "Классический Бургер",
+                    "description": "Фирменная булочка, красный лук, маринованный огурец, листья салата, помидор, соус Классический",
+                    "price": 175,
+                    "category": "Мясное",
+                    "area": "Italian",
+                    "image": "https://primebeef.ru/images/cms/thumbs/a5b0aeaa3fa7d6e58d75710c18673bd7ec6d5f6d/img_3911_500_306_5_100.jpg"
+                },
+                {
+                    "id": "6",
+                    "title": "Классический Бургер",
+                    "description": "Фирменная булочка, красный лук, маринованный огурец, листья салата, помидор, соус Классический",
+                    "price": 175,
+                    "category": "Мясное",
+                    "area": "Italian",
+                    "image": "https://primebeef.ru/images/cms/thumbs/a5b0aeaa3fa7d6e58d75710c18673bd7ec6d5f6d/img_3911_500_306_5_100.jpg"
+                },
+                {
+                    "id": "7",
+                    "title": "Классический Бургер",
+                    "description": "Фирменная булочка, красный лук, маринованный огурец, листья салата, помидор, соус Классический",
+                    "price": 175,
+                    "category": "Мясное",
+                    "area": "Italian",
+                    "image": "https://primebeef.ru/images/cms/thumbs/a5b0aeaa3fa7d6e58d75710c18673bd7ec6d5f6d/img_3911_500_306_5_100.jpg"
+                }
+            ]
+        },
+        {
+            "pizza": [
+                {
+                    "id": "1",
+                    "title": "КУРИНАЯ ",
+                    "description": "Пицца Куриная.Пицца-соус, сыр моцарелла, куриная грудка в сливочном соусе, зеленьChicken Pizza.Pizza sauce, mozzarella, chicken breast in cream",
+                    "price": 175,
+                    "category": "Куриное",
+                    "area": "Italian",
+                    "image": "https://mobile.mypizza.kg/jpg/%D0%9A%D1%83%D1%80%D0%B8%D0%BD%D0%B0%D1%8F.jpg"
+                },
+                {
+                    "id": "2",
+                    "title": "КУРИНАЯ ",
+                    "description": "Пицца Куриная.Пицца-соус, сыр моцарелла, куриная грудка в сливочном соусе, зеленьChicken Pizza.Pizza sauce, mozzarella, chicken breast in cream",
+                    "price": 175,
+                    "category": "Куриное",
+                    "area": "Italian",
+                    "image": "https://mobile.mypizza.kg/jpg/%D0%9A%D1%83%D1%80%D0%B8%D0%BD%D0%B0%D1%8F.jpg"
+                },
+                {
+                    "id": "3",
+                    "title": "КУРИНАЯ ",
+                    "description": "Пицца Куриная.Пицца-соус, сыр моцарелла, куриная грудка в сливочном соусе, зеленьChicken Pizza.Pizza sauce, mozzarella, chicken breast in cream",
+                    "price": 175,
+                    "category": "Куриное",
+                    "area": "Italian",
+                    "image": "https://mobile.mypizza.kg/jpg/%D0%9A%D1%83%D1%80%D0%B8%D0%BD%D0%B0%D1%8F.jpg"
+                },
+                {
+                    "id": "4",
+                    "title": "КУРИНАЯ ",
+                    "description": "Пицца Куриная.Пицца-соус, сыр моцарелла, куриная грудка в сливочном соусе, зеленьChicken Pizza.Pizza sauce, mozzarella, chicken breast in cream",
+                    "price": 175,
+                    "category": "Куриное",
+                    "area": "Italian",
+                    "image": "https://mobile.mypizza.kg/jpg/%D0%9A%D1%83%D1%80%D0%B8%D0%BD%D0%B0%D1%8F.jpg"
+                },
+                {
+                    "id": "6",
+                    "title": "КУРИНАЯ ",
+                    "description": "Пицца Куриная.Пицца-соус, сыр моцарелла, куриная грудка в сливочном соусе, зеленьChicken Pizza.Pizza sauce, mozzarella, chicken breast in cream",
+                    "price": 175,
+                    "category": "Куриное",
+                    "area": "Italian",
+                    "image": "https://mobile.mypizza.kg/jpg/%D0%9A%D1%83%D1%80%D0%B8%D0%BD%D0%B0%D1%8F.jpg"
+                },
+                {
+                    "id": "7",
+                    "title": "КУРИНАЯ ",
+                    "description": "Пицца Куриная.Пицца-соус, сыр моцарелла, куриная грудка в сливочном соусе, зеленьChicken Pizza.Pizza sauce, mozzarella, chicken breast in cream",
+                    "price": 175,
+                    "category": "Куриное",
+                    "area": "Italian",
+                    "image": "https://mobile.mypizza.kg/jpg/%D0%9A%D1%83%D1%80%D0%B8%D0%BD%D0%B0%D1%8F.jpg"
+                }
+            ]
+        },
+        {
+            "dessert": [
+                {
+                    "id": "1",
+                    "title": "Творожный десерт ",
+                    "description": "Двухслойные шоколадно-творожные пирожные, приготовленные по этому рецепту, выглядят очень аппетитно, а готовятся элементарно! Изюминка их в том, что и шоколадный, и творожный слои выпекаются сразу в одной форме. При этом шоколадный корж получается пористым, мягким, с насыщенным шоколадным вкусом, а творожный слой - не сухим, а как бы кремовым и очень нежным, и приятно дополняет бисквит! Отличный десерт для любителей шоколада и творога!v",
+                    "price": 175,
+                    "category": "Куриное",
+                    "area": "Italian",
+                    "image": "https://mobile.mypizza.kg/jpg/%D0%9A%D1%83%D1%80%D0%B8%D0%BD%D0%B0%D1%8F.jpg"
+                },
+                {
+                    "id": "2",
+                    "title": "Творожный десерт ",
+                    "description": "Двухслойные шоколадно-творожные пирожные, приготовленные по этому рецепту, выглядят очень аппетитно, а готовятся элементарно! Изюминка их в том, что и шоколадный, и творожный слои выпекаются сразу в одной форме. При этом шоколадный корж получается пористым, мягким, с насыщенным шоколадным вкусом, а творожный слой - не сухим, а как бы кремовым и очень нежным, и приятно дополняет бисквит! Отличный десерт для любителей шоколада и творога!v",
+                    "price": 175,
+                    "category": "Куриное",
+                    "area": "Italian",
+                    "image": "https://mobile.mypizza.kg/jpg/%D0%9A%D1%83%D1%80%D0%B8%D0%BD%D0%B0%D1%8F.jpg"
+                },
+                {
+                    "id": "3",
+                    "title": "Творожный десерт ",
+                    "description": "Двухслойные шоколадно-творожные пирожные, приготовленные по этому рецепту, выглядят очень аппетитно, а готовятся элементарно! Изюминка их в том, что и шоколадный, и творожный слои выпекаются сразу в одной форме. При этом шоколадный корж получается пористым, мягким, с насыщенным шоколадным вкусом, а творожный слой - не сухим, а как бы кремовым и очень нежным, и приятно дополняет бисквит! Отличный десерт для любителей шоколада и творога!v",
+                    "price": 175,
+                    "category": "Куриное",
+                    "area": "Italian",
+                    "image": "https://mobile.mypizza.kg/jpg/%D0%9A%D1%83%D1%80%D0%B8%D0%BD%D0%B0%D1%8F.jpg"
+                },
+                {
+                    "id": "4",
+                    "title": "Творожный десерт ",
+                    "description": "Двухслойные шоколадно-творожные пирожные, приготовленные по этому рецепту, выглядят очень аппетитно, а готовятся элементарно! Изюминка их в том, что и шоколадный, и творожный слои выпекаются сразу в одной форме. При этом шоколадный корж получается пористым, мягким, с насыщенным шоколадным вкусом, а творожный слой - не сухим, а как бы кремовым и очень нежным, и приятно дополняет бисквит! Отличный десерт для любителей шоколада и творога!v",
+                    "price": 175,
+                    "category": "Куриное",
+                    "area": "Italian",
+                    "image": "https://mobile.mypizza.kg/jpg/%D0%9A%D1%83%D1%80%D0%B8%D0%BD%D0%B0%D1%8F.jpg"
+                },
+                {
+                    "id": "6",
+                    "title": "Творожный десерт ",
+                    "description": "Двухслойные шоколадно-творожные пирожные, приготовленные по этому рецепту, выглядят очень аппетитно, а готовятся элементарно! Изюминка их в том, что и шоколадный, и творожный слои выпекаются сразу в одной форме. При этом шоколадный корж получается пористым, мягким, с насыщенным шоколадным вкусом, а творожный слой - не сухим, а как бы кремовым и очень нежным, и приятно дополняет бисквит! Отличный десерт для любителей шоколада и творога!v",
+                    "price": 175,
+                    "category": "Куриное",
+                    "area": "Italian",
+                    "image": "https://mobile.mypizza.kg/jpg/%D0%9A%D1%83%D1%80%D0%B8%D0%BD%D0%B0%D1%8F.jpg"
+                },
+                {
+                    "id": "7",
+                    "title": "КУРИНАЯ ",
+                    "description": "Двухслойные шоколадно-творожные пирожные, приготовленные по этому рецепту, выглядят очень аппетитно, а готовятся элементарно! Изюминка их в том, что и шоколадный, и творожный слои выпекаются сразу в одной форме. При этом шоколадный корж получается пористым, мягким, с насыщенным шоколадным вкусом, а творожный слой - не сухим, а как бы кремовым и очень нежным, и приятно дополняет бисквит! Отличный десерт для любителей шоколада и творога!v",
+                    "price": 175,
+                    "category": "Куриное",
+                    "area": "Italian",
+                    "image": "https://mobile.mypizza.kg/jpg/%D0%9A%D1%83%D1%80%D0%B8%D0%BD%D0%B0%D1%8F.jpg"
+                }
+            ]
+        }
+    ]
+}

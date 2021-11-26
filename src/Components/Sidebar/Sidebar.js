@@ -1,24 +1,24 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
 import MyLink from "../../shared/MyLink";
-import "./Sidebar.css"
+import "./Sidebar.css";
 
-export default props => {
-  return (
-    <Menu {...props}>
-      <MyLink to="/" >Meal</MyLink>
+export default (props) => {
+    return (
+        <Menu {...props}>
+            <MyLink to="/">Meal</MyLink>
 
-      {/* <a className="menu-item" href="/burgers">
-        Burgers
-      </a>
+            <a className="menu-item" href="/burgers">
+                Burgers
+            </a>
 
-      <a className="menu-item" href="/pizzas">
-        Pizzas
-      </a>
+            <a className="menu-item" href="/pizzas">
+                Pizzas
+            </a>
 
-      <a className="menu-item" href="/desserts">
-        Desserts
-      </a> */}
-    </Menu>
-  );
+            <a className="menu-item" href="/desserts">
+                Desserts
+            </a>
+        </Menu>
+    );
 };
