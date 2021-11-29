@@ -1,19 +1,27 @@
-import React from "react";
-import { Route, Routes } from "react-router";
-import MainPage from "../pages/MainPage";
-import Meal from "../pages/Meal";
-import FavoritePage from "../pages/FavoritePage";
-import AuthPage from "../pages/AuthPage";
+import React from 'react';
+// import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import MainPage from '../pages/MainPage';
+import Meal from '../pages/Meal';
+import FavoritePage from '../pages/FavoritePage';
+import AuthPage from '../pages/AuthPage';
+import AuthContext from '../contexts/AuthContext';
+import MealContext from '../contexts/MealContext';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 const AppRoutes = () => {
   return (
-    <Routes>
-      <Route path="/" element={<MainPage />} />
-      <Route path="/meal/:id" element={<Meal />} />
-      <Route path="/cart" element={<CartPage />} />
-      <Route path="/favorite" element={<FavoritePage />} />
-      <Route path="/register" element={<AuthPage/>}/>
-    </Routes>
+    <Router>
+      <AuthContext>
+        <MealContext>
+          <Routes>
+            <Route exact path="/" element={<MainPage />} />
+            <Route exact path="/meal/:id" element={<Meal />} />
+            <Route exact path="/favorite" element={<FavoritePage />} />
+            <Route exact path="/register" element={<AuthPage />} />
+          </Routes>
+        </MealContext>
+      </AuthContext>
+    </Router>
   );
 };
 

@@ -2,6 +2,14 @@ import { Grid } from '@material-ui/core';
 import React from 'react';
 import MealsCard from './MealsCard';
 
+
+
+
+
+
+
+
+
 const MealsList = ({ meals }) => {
     const favorite = JSON.parse(localStorage.getItem('favorite')) ?? false;
     return (
