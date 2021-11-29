@@ -1,16 +1,15 @@
-import React from "react";
-import { slide as Menu } from "react-burger-menu";
-import MyLink from "../../shared/MyLink";
-import "./Sidebar.css"
+import React from 'react';
+import { slide as Menu } from 'react-burger-menu';
+import MyLink from '../../shared/MyLink';
+import './Sidebar.css';
+import { Link } from 'react-router-dom';
 
-export default state => {
+export default (state) => {
   return (
     <Menu {...state}>
-      <MyLink to="/">
-        Meal
-        </MyLink>
-        <a to="/">Meal2</a>
-    <MyLink to="/favorite">Favorite</MyLink>
+      <Link to="/">Meal</Link>
+      <Link to="/register">Meal2</Link>
+      <Link to="/favorite">Favorite</Link>
     </Menu>
   );
 };

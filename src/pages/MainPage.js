@@ -5,16 +5,16 @@ import Sidebar from '../Components/Sidebar/Sidebar';
 import MainLayout from '../layouts/MainLayout';
 
 const MainPage = () => {
-    return (
-        // <MainLayout/>
-            <Box p={5}>
-                <Grid container spacing={3}>
-                    {/* <Sidebar /> */}
-                    <Content />
-                </Grid>
-            </Box>
-        // {/* </MainLayout> */}
-    );
+  return (
+    <MainLayout>
+      <Box p={5}>
+        <Grid container spacing={3}>
+          {/* <Sidebar /> */}
+          <Content />
+        </Grid>
+      </Box>
+    </MainLayout>
+  );
 };
 
 export default MainPage;
