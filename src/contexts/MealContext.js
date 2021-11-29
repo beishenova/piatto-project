@@ -1,6 +1,6 @@
 import { createContext, useContext, useReducer, useState } from 'react';
 import axios from 'axios';
-import { GET_MEALS_SUCCESS, GET_MEAL_DETAILS } from './consts';
+import { GET_MEALS_SUCCESS, GET_MEAL_DETAILS } from '../utils/constants';
 import { $api } from '../service/axios-config';
 import {
   ADD_AND_DELETE_MEAL_IN_FAVORITE,
@@ -17,10 +17,20 @@ import {
   mealLoading,
   mealSuccess,
 } from './actions/mealDetailsActions';
+import { useLocation, useNavigate } from 'react-router';
+import { checkItemInFavorite } from '../utils/check-item-favorite';
 
+// const mealContext = createContext();
+
+// export const useMeals = () => {
+//   return useContext(mealContext);
+//   };
 export const mealContext = createContext();
 
-export const useMeals = () => useContext(mealContext);
+export const useMeals = () => {
+  return useContext(mealContext);
+  };
+export const useMeals1 = ()=> useContext(mealContext)
 
 const INIT_STATE = {
   mealsLoading: false,
@@ -121,6 +131,7 @@ const MealContext = ({ children }) => {
       console.log(error.message);
     }
   };
+  
   const getOneMeal = async (id) => {
     dispatch(mealLoading());
     try {
@@ -241,9 +252,8 @@ const MealContext = ({ children }) => {
     getOneMeal,
     addAndDeleteMealInFavorite,
     getFavorite,
-    fetchSearchMeals,
+    // fetchSearchMeals,
     dispatch,
-    changeMealCount,
   };
   return <mealContext.Provider value={value}>{children}</mealContext.Provider>;
 };

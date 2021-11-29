@@ -1,14 +1,15 @@
 import { Grid } from '@material-ui/core';
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import ReactPaginate from 'react-paginate';
 import { useLocation } from 'react-router';
-import { useMeals } from '../../contexts/MealContext';
+import { BrowserRouter } from 'react-router-dom';
+import { mealContext, useMeals} from '../../contexts/MealContext';
 import MySpinner from '../../shared/MySpinner';
 import MealsList from '../Meals/MealsList';
-import './content.css';
+import './Content.css';
 
 const Content = () => {
-    const { getMeals, loading, error, meals } = useMeals();
+    const{ getMeals,loading, error, meals }= useMeals();
 
     const [page, setPage] = useState(0);
 
@@ -34,7 +35,7 @@ const Content = () => {
         <Grid item md={9}>
             {loading && <MySpinner size={50} />}
             {!loading && error && <h2>{error}</h2>}
-            {!loading && products.length > 0 && (
+            {!loading && meals.length > 0 && (
                 <>
                     <MealsList meals={paginateMeals} />
                     <ReactPaginate

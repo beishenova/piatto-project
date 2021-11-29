@@ -1,24 +1,15 @@
-import React from "react";
-import { slide as Menu } from "react-burger-menu";
-import MyLink from "../../shared/MyLink";
-import "./Sidebar.css"
+import React from 'react';
+import { slide as Menu } from 'react-burger-menu';
+import MyLink from '../../shared/MyLink';
+import './Sidebar.css';
+import { Link } from 'react-router-dom';
 
-export default props => {
+export default (state) => {
   return (
-    <Menu {...props}>
-      <MyLink to="/" >Meal</MyLink>
-
-      {/* <a className="menu-item" href="/burgers">
-        Burgers
-      </a>
-
-      <a className="menu-item" href="/pizzas">
-        Pizzas
-      </a>
-
-      <a className="menu-item" href="/desserts">
-        Desserts
-      </a> */}
+    <Menu {...state}>
+      <Link to="/">Meal</Link>
+      <Link to="/register">Meal2</Link>
+      <Link to="/favorite">Favorite</Link>
     </Menu>
   );
 };
