@@ -11,7 +11,6 @@ import './Content.css';
 const Content = () => {
     const{ getMeals,loading, error, meals }= useMeals();
 
-    
     const [page, setPage] = useState(0);
 
     const mealPerPage = 6;
