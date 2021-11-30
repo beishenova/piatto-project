@@ -1,15 +1,15 @@
-import { Grid } from '@material-ui/core';
-import React, { useContext, useEffect, useState } from 'react';
-import ReactPaginate from 'react-paginate';
-import { useLocation } from 'react-router';
-import { BrowserRouter } from 'react-router-dom';
-import { mealContext, useMeals} from '../../contexts/MealContext';
-import MySpinner from '../../shared/MySpinner';
-import MealsList from '../Meals/MealsList';
-import './Content.css';
+import { Grid } from "@material-ui/core";
+import React, { useEffect, useState } from "react";
+import ReactPaginate from "react-paginate";
+import { useLocation } from "react-router";
+
+import { useMeals } from "../../contexts/MealContext";
+import MySpinner from "../../shared/MySpinner";
+import MealsList from "../Meals/MealsList";
+import "./Content.css";
 
 const Content = () => {
-    const{ getMeals,loading, error, meals }= useMeals();
+    const { getMeals, loading, error, meals } = useMeals();
 
     const [page, setPage] = useState(0);
 
