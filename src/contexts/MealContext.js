@@ -30,7 +30,7 @@ export const mealContext = createContext();
 export const useMeals = () => {
   return useContext(mealContext);
   };
-export const useMeals1 = ()=> useContext(mealContext)
+
 
 const INIT_STATE = {
   mealsLoading: false,
@@ -118,7 +118,7 @@ const MealContext = ({ children }) => {
   const location = useLocation();
   const navigate = useNavigate();
   console.log(state);
-  // const [movies, setMovies] = useState([]);
+
 
   const getMeals = async () => {
     try {

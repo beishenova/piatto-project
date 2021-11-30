@@ -24,12 +24,12 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function Header() {
-    
-    const classes = useStyles();
-    const [searchActive, setSearchActive] = React.useState(false);
-    //   const { fetchSearchMeals } = useMeals();
-    //   console.log(fetchSearchMeals, 'hello')
-    const { registerUser, user, logOut } = useContext(authContext);
+  const classes = useStyles();
+  const [searchActive, setSearchActive] = React.useState(false);
+  // const { fetchSearchMeals } = useMeals(); 
+//   console.log(fetchSearchMeals, 'hello')
+  const { registerUser, user, logOut } = useContext(authContext); 
+  
 
     //   const handleSearch = (e) => {
     //     fetchSearchMeals(e.target.value);

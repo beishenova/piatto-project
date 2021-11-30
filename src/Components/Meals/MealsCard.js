@@ -14,6 +14,7 @@ import { Shop } from '@material-ui/icons';
 import MyLink from '../../shared/MyLink';
 import { useMeals } from '../../contexts/MealContext';
 import { checkItemInFavorite} from '../../utils/check-item-favorite';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles({
   root: {
@@ -28,7 +29,7 @@ const useStyles = makeStyles({
   },
 });
 
-const MealCard = ({ meal, favorite }) => {
+const MealsCard = ({ meal, favorite }) => {
   const classes = useStyles();
 
   const { addAndDeleteMealInFavorite } = useMeals();
@@ -44,7 +45,7 @@ const MealCard = ({ meal, favorite }) => {
 
   return (
     <Card className={classes.root}>
-      <MyLink to={`/meal/${meal.id}`}>
+      <Link to={`/meal/${meal.id}`}>
         <CardActionArea>
           <CardMedia
             className={classes.media}
@@ -69,14 +70,11 @@ const MealCard = ({ meal, favorite }) => {
               color="textSecondary"
               component="p"
             >
-              {meal.recipe}
-            </Typography>
-            <Typography variant="subtitle1" color="textPrimary" component="p">
-              Категория: {meal.category} 
+              {meal.price}
             </Typography>
           </CardContent>
         </CardActionArea>
-      </MyLink>
+      </Link>
       <CardActions className={classes.actions}>
         <IconButton color={inFavorite ? 'secondary' : 'default'}>
           <FavoriteIcon />
@@ -94,4 +92,4 @@ const MealCard = ({ meal, favorite }) => {
   );
 };
 
-export default MealCard;
+export default MealsCard;

@@ -74,7 +74,7 @@ const MealsDetails = () => {
                   </tr>
                   <tr>
                     <th>Recipe:</th>
-                    <td>{mealDetails.recipe}</td>
+                    <td>{mealDetails.price}</td>
                   </tr>
                   <tr>
                     <th>Category:</th>
