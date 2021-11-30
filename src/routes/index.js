@@ -7,6 +7,7 @@ import AuthPage from '../pages/AuthPage';
 import AuthContext from '../contexts/AuthContext';
 import MealContext from '../contexts/MealContext';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import MealsList from '../Components/Meals/MealsList';
 
 const AppRoutes = () => {
   return (
@@ -14,7 +15,7 @@ const AppRoutes = () => {
       <AuthContext>
         <MealContext>
           <Routes>
-            <Route exact path="/" element={<MainPage />} />
+            <Route exact path="/" element={<MealsList />} />
             <Route exact path="/meal/:id" element={<Meal />} />
             <Route exact path="/favorite" element={<FavoritePage />} />
             <Route exact path="/register" element={<AuthPage />} />

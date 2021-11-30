@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 export default (state) => {
   return (
     <Menu {...state}>
-      <Link to="/">Meal</Link>
-      <Link to="/register">Meal2</Link>
+      <Link to="/">Meals</Link>
+      <Link to="/meal/:id">Meal2</Link>
       <Link to="/favorite">Favorite</Link>
     </Menu>
   );
